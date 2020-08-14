@@ -1,0 +1,20 @@
+/*Global*/
+
+
+/*Helpers*/
+
+.clearfixx::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+
+/*container*/
+
+
+/*Bloque 1*/
+
+/*Bloque 2*/
+
+
+/*Footer*/
