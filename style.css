@@ -103,6 +103,8 @@ span{
 
 .caja1 + .caja2{
     margin-left:20px;
+    border-spacing:60px;
+    border-collapse: separate;
 }
 .caja1, .caja2{
     width: 440px; height: 347px;
@@ -115,7 +117,16 @@ span{
     line-height: 17px;
 }
 
+/*.caja1{
+    float: left;
+    padding:5px
+}*/
 
+/*.caja2{
+    float: right;
+    padding:5px
+
+}*/
 .caja1{
     background-image: url(img/img1.png);
     background-repeat: no-repeat;
