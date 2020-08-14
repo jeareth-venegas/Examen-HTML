@@ -1,5 +1,13 @@
 /*Global*/
+html{
+    border-top: 11px solid #EDEDED;
+}
 
+body{
+    font-family: arial, helvetica, sans-serif;
+    width: 1175px;
+    margin: auto;
+}
 
 /*Helpers*/
 
@@ -9,11 +17,82 @@
     display: table;
 }
 
-/*container*/
+/*container: head, logo y menu-lis*/
+
+/*Head*/
 
 
-/*Bloque 1*/
+/*logo*/
 
+#logo{
+    width: 375px;
+    padding-left: 210px;
+    margin: 0;
+}
+
+/*menu-list*/
+
+.border-bottom{
+    border-bottom: 6px solid #676766;
+
+}
+
+
+.menu-list{
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+.menu-list li{
+    list-style:none;
+    float:left;
+    margin-left: 40px;
+}
+
+.menu-list li a{
+    text-decoration: none;
+    color:#676766;
+    font-weight: bold;
+
+}
+
+.menu-list{
+    padding-left:72px;
+}
+
+/*Bloque 1 MAIN INFO*/
+
+.title{
+    color:#D3001C;
+}
+.parrafo{
+    color: #6E6E6E;
+}
+
+#title2{
+    color:#8C0013;
+}
+
+h3{
+    color: #707070;
+}
+
+p{
+    color:#313131;
+    
+    
+}
+
+a{
+    color:#D3001C;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+span{
+    font-weight: bold;
+    color:#101010;
+}
 /*Bloque 2*/
 
 
